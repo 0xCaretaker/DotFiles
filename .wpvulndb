@@ -1,0 +1,5 @@
+wpscan --url http://`IP` -e ap,t,tt,u --api-token TOKEN --plugins-detection aggressive
+wpscan --url http://`IP` -e vp,vt,dbe,tt,cb,u,m --api-token TOKEN --plugins-detection aggressive
+wpscan --url http://`IP` -e ap,at,dbe,tt,cb,u,m --api-token TOKEN --plugins-detection aggressive
+wpscan --url http://`IP` -e p,t,dbe,tt,cb,u,m --api-token TOKEN --plugins-detection aggressive
+wpscan --url http://`IP` -e p --plugins-detection aggressive

@@ -1,0 +1,9 @@
+pane	HTB	1	:openvpn	0	:-	0	:/media/sf_Shared	1	bash	:
+pane	HTB	1	:openvpn	0	:-	1	:/root/HTB	0	openvpn	:openvpn /root/HTB/TheCaretaker.ovpn
+pane	HTB	2	:bash	1	:*	0	:/root/HTB	0	bash	:
+pane	HTB	2	:bash	1	:*	1	:/root/HTB	0	bash	:
+pane	HTB	2	:bash	1	:*	2	:/root/HTB	1	bash	:
+pane	HTB	2	:bash	1	:*	3	:/opt	0	bash	:
+window	HTB	1	0	:-	8205,191x48,0,0{95x48,0,0,1,95x48,96,0,2}
+window	HTB	2	1	:*	18a1,191x48,0,0{71x48,0,0[71x9,0,0,21,71x38,0,10,22],119x48,72,0[119x41,72,0,23,119x6,72,42,24]}
+state	HTB	

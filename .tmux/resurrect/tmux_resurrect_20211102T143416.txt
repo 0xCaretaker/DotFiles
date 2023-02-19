@@ -1,0 +1,8 @@
+pane	HTB	1	:openvpn	0	:##-	0	:/media/sf_Shared	0	bash	:
+pane	HTB	1	:openvpn	0	:##-	1	:/root/HTB	1	openvpn	:openvpn /root/HTB/TheCaretaker.ovpn
+pane	HTB	2	:bash	1	:*Z	0	:/root/HTB/Secret	0	bash	:
+pane	HTB	2	:bash	1	:*Z	1	:/root/HTB/Secret	0	bash	:
+pane	HTB	2	:bash	1	:*Z	2	:/root/HTB/Secret	1	nano	:nano notes
+window	HTB	1	0	:##-	8205,191x48,0,0{95x48,0,0,1,95x48,96,0,2}
+window	HTB	2	1	:*Z	c9b2,191x48,0,0{105x48,0,0[105x9,0,0,3,105x38,0,10,4],85x48,106,0,6}
+state	HTB	

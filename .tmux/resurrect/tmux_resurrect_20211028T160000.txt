@@ -1,0 +1,15 @@
+pane	HTB	1	:openvpn	0	:	0	:/media/sf_Shared	1	openvpn	:openvpn THEC4R3T4K3R.ovpn
+pane	HTB	1	:openvpn	0	:	1	:/root/HTB	0	bash	:
+pane	HTB	2	:bash	0	:-	0	:/root/HTB	0	bash	:
+pane	HTB	2	:bash	0	:-	1	:/root/HTB	0	bash	:
+pane	HTB	2	:bash	0	:-	2	:/root/HTB/Devzat/js-map/modules/svelte/internal	1	bash	:
+pane	HTB	2	:bash	0	:-	3	:/opt	0	bash	:
+pane	HTB	3	:nano	1	:*	0	:/media/sf_Shared	0	xfreerdp	:xfreerdp /v:10.10.20.240 /p:************* /u:Analysis +clipboard /cert:ignore /workarea
+pane	HTB	3	:nano	1	:*	1	:/media/sf_Shared	0	r2	:r2 ./bomb.exe
+pane	HTB	3	:nano	1	:*	2	:/media/sf_Shared	0	python3	:python3 -m http.server 80
+pane	HTB	3	:nano	1	:*	3	:/media/sf_Shared	1	nano	:nano text
+pane	HTB	3	:nano	1	:*	4	:/media/sf_Shared	0	python2	:/usr/bin/python2 /usr/local/bin/smbserver.py -smb2support share . -username care -password care
+window	HTB	1	0	:	8205,191x48,0,0{95x48,0,0,1,95x48,96,0,2}
+window	HTB	2	0	:-	b211,191x48,0,0{71x48,0,0[71x9,0,0,3,71x38,0,10,4],119x48,72,0[119x41,72,0,5,119x6,72,42,6]}
+window	HTB	3	1	:*	d16e,191x48,0,0{95x48,0,0[95x24,0,0,7,95x23,0,25,10],95x48,96,0[95x12,96,0,8,95x11,96,13,11,95x23,96,25,9]}
+state	HTB	
